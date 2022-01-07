@@ -1,13 +1,24 @@
 <template>
 <div class="home">
   <h1>¡Hola vue! uwu</h1>
-  <p class="red white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic autem facilis fugit natus reprehenderit eaque est totam eligendi nesciunt eveniet! Esse quo, sed tempore perferendis vel fugiat nobis facere voluptates!</p>
-  <p class="pink lighten-4 red--text text--darken-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia distinctio explicabo facilis tenetur, minus voluptates pariatur amet odio! Dignissimos reiciendis vero adipisci, repellat est alias quis repudiandae aliquam incidunt facere!</p>
-  <h1 class="display-4">Mensaje grandote</h1>
-  <h1 class="display-1">Mensaje peque</h1>
-  <p class="headline">This is a Headline</p>
-  <p class="subheading">This is a subheading</p>
-  <p class="caption">This is a caption</p>
+ <v-btn class="pink white--text">Click me</v-btn> 
+ <v-btn depressed dark color="pink">click me</v-btn>
+ <v-btn text color="pink">click me</v-btn>
+
+ <v-btn depressed class="pink white--text">
+   <v-icon left>mdi-email</v-icon>
+   <span>email me</span>
+ </v-btn>
+
+ <v-btn depressed large class="pink white--text">
+   <span>email me</span>
+   <v-icon large rigth>mdi-email</v-icon>
+ </v-btn>
+
+ <v-btn fab depressed small dark color="purple">
+   <v-icon>mdi-heart</v-icon>
+ </v-btn>
+
 </div>
 </template>
 
