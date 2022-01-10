@@ -1,6 +1,6 @@
 <template>
-<div class="home">
-  <h1>¡Hola vue! uwu</h1>
+<div class="projects">
+  <h1>Projects</h1>
   
 </div>
 </template>
