@@ -12,8 +12,8 @@
                 <v-icon right>mdi-exit-to-app</v-icon>
             </v-btn>
         </v-app-bar>
-        <v-navigation-drawer v-model="drawer" app class="inidigo">
-            <p>Tets</p>
+        <v-navigation-drawer v-model="drawer" app class="primary">
+            <p class="info">Tets</p>
         </v-navigation-drawer>
 
     </nav>
