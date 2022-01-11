@@ -60,5 +60,13 @@
 .project.overdue {
   border-left: 4px solid tomato;
 }
-
+.v-chip.complete {
+  background: #3cd1c2 !important; 
+}
+.v-chip.ongoing {
+  background: orange !important;
+}
+.v-chip.overdue {
+  background: tomato !important;
+}
 </style>
