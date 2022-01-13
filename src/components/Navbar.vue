@@ -21,7 +21,7 @@
                 </v-flex>
             </v-layout>
             <v-layout column align-center>
-                <v-flex class="">
+                <v-flex>
                     <p class="white--text subtitle-1 font-weight-medium mt-1">
                         Ruckrussell
                     </p>
